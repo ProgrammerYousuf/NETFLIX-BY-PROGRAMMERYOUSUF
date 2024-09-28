@@ -1,0 +1,347 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background: #000;
+}
+/* navbar start from here */
+header {
+  height: 80px;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.navbar {
+  padding: 20px;
+}
+.navlogo img {
+  width: 150px;
+  object-fit: contain;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.navbutton a,
+input {
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+  outline: none;
+  border: none;
+}
+.navbutton a,
+input:hover {
+  background-color: #c90202;
+  transition: all 0.3s;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+/* section 1 start from here */
+.section1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("assets/img/banner.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text {
+  padding: 200px 0px 0px;
+  color: #ffffff;
+}
+.text p {
+  font-size: 20px;
+  margin: 20px 0px;
+}
+.text h1 {
+  font-weight: bolder;
+}
+.text h5 {
+  font-weight: normal;
+}
+.maininput {
+  padding: 0px 0px 200px;
+}
+.maininput input {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 300px;
+  height: 50px;
+  outline: none;
+  border: 1px solid #ff0000;
+}
+.maininput button {
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 150px;
+  height: 45px;
+  outline: none;
+  border: none;
+}
+.maininput input:focus {
+  border: 1px solid white;
+}
+.maininput button:hover {
+  background-color: #c90202;
+  transition: all 0.3s;
+}
+.line {
+  width: 100%;
+  height: 10px;
+  background: #4b4b4b;
+}
+.section2 {
+  background: #000;
+  color: #ffffff;
+}
+
+.left h1 {
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin: 5rem 0 0;
+}
+.left p {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin: 2rem 0;
+}
+.right {
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+.right img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  margin: 0rem auto;
+  position: relative;
+  z-index: 1;
+}
+.right video {
+  height: 222px;
+  object-fit: fill;
+  position: absolute;
+  right: 5.5rem;
+  top: 5.3rem;
+}
+.left1 {
+  padding: 3rem 0px;
+}
+.left1 h1 .box h1 {
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin: 5rem 0 0;
+}
+.left1 p {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin: 2rem 0;
+}
+.section3 {
+  background: #000;
+  color: #ffffff;
+  padding: 2rem 0;
+}
+.textsec3 {
+  background: #3d3b3b;
+  width: 100%;
+  height: 3rem;
+  color: #ffffff;
+}
+.textsec3 h5 {
+  margin: 10px;
+  font-size: 15px;
+}
+.textsec3 i {
+  margin: 10px;
+  font-size: 25px;
+}
+.textsec3:hover {
+  transition: all 0.3s;
+  background: #2c2c2c;
+  cursor: pointer;
+}
+footer {
+  background: #000;
+  color: #ffffff;
+  padding: 2rem 0;
+}
+.textsec4 a {
+  color: #ffffffb3;
+  font-size: 16px;
+  font-weight: 20px;
+  display: block;
+  margin: 2rem 0;
+  text-transform: capitalize;
+}
+.textsec4 p {
+  color: #ffffffb3;
+  font-size: 16px;
+  font-weight: 20px;
+  display: block;
+  margin: 2rem 0;
+  text-transform: capitalize;
+}
+.textsec4 select {
+  background-color: #1d1d1d;
+  color: #ffffff;
+  text-transform: capitalize;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 16px;
+  width: 9rem;
+  padding: 0 1.5rem;
+  outline: #ffffff;
+  border: 1px solid #ffffff;
+}
+.textsec4 a:hover {
+  cursor: pointer;
+  color: #ffffffb3;
+}
+.textsec4 p:hover {
+  cursor: pointer;
+  color: #ffffffb3;
+}
+@media (max-width: 1199px) {
+  .right video {
+    height: 200px;
+    object-fit: fill;
+    position: absolute;
+    right: 3.3rem;
+    top: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .right video {
+    height: 300px;
+    object-fit: fill;
+    position: absolute;
+    left: 6.6rem;
+    top: 6.8rem;
+  }
+}
+@media (max-width: 767px) {
+  .right video {
+    height: 220px;
+    object-fit: fill;
+    position: absolute;
+    left: 5rem;
+    top: 5rem;
+  }
+}
+@media (max-width: 540px) {
+  .right video {
+    height: 220px;
+    object-fit: fill;
+    position: absolute;
+    left: 4.5rem;
+    top: 4.5rem;
+  }
+}
+@media (max-width: 500px) {
+  .right video {
+    height: 220px;
+    object-fit: fill;
+    position: absolute;
+    left: 4.4rem;
+    top: 4.2rem;
+  }
+}
+@media (max-width: 497px) {
+  .right video {
+    height: 200px;
+    object-fit: fill;
+    position: absolute;
+    left: 4.3em;
+    top: 4rem;
+  }
+}
+@media (max-width: 457px) {
+  .right video {
+    height: 180px;
+    object-fit: fill;
+    position: absolute;
+    left: 4rem;
+    top: 4rem;
+  }
+}
+@media (max-width: 425px) {
+  .right video {
+    height: 180px;
+    object-fit: fill;
+    position: absolute;
+    left: 3.8rem;
+    top: 3.7rem;
+  }
+}
+@media (max-width: 415px) {
+  .right video {
+    height: 150px;
+    object-fit: fill;
+    position: absolute;
+    left: 3.7rem;
+    top: 3.4rem;
+  }
+}
+@media (max-width: 375px) {
+  .right video {
+    height: 150px;
+    object-fit: fill;
+    position: absolute;
+    left: 3.5rem;
+    top: 3rem;
+  }
+}
+@media (max-width: 344px) {
+  .right video {
+    height: 130px;
+    object-fit: fill;
+    position: absolute;
+    left: 3rem;
+    top: 2.3rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .right video {
+    height: 120px;
+    object-fit: fill;
+    position: absolute;
+    left: 3rem;
+    top: 2.3rem;
+  }
+}
